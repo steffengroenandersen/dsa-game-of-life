@@ -1,11 +1,10 @@
 "use-strict";
 
-let gameInterval;
-let gameActive = false;
-let model = [];
-
 const GRID_WIDTH = 25;
 const GRID_HEIGHT = 25;
+let gameActive = false;
+let gameInterval;
+let model = [];
 
 window.addEventListener("load", start);
 
